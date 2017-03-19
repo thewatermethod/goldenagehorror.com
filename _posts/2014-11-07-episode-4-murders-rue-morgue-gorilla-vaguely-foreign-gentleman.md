@@ -6,7 +6,7 @@ post_date: 2014-11-07 20:15:10
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-4-murders-rue-morgue-gorilla-vaguely-foreign-gentleman/
+  https://goldenagehorror.com/episode-4-murders-rue-morgue-gorilla-vaguely-foreign-gentleman/
 published: true
 enclosure:
   - |
@@ -18,6 +18,16 @@ videourl:
   - ""
 dsq_thread_id:
   - "3220410694"
+tags:
+  - edgar allan poe
+  - engels
+  - evolution
+  - killer apes
+  - lugosi
+  - murders in the rue morgue
+  - noble johnson
+categories:
+  - Podcasts
 ---
 <img class="alignnone size-full wp-image-172" src="http://goldenagehorror.com/wp-content/uploads/2014/11/murders-in-the-rue-morgue-movie-poster-1932-1020141479.jpg" alt="murders in the rue morgue" width="580" height="866" />
 

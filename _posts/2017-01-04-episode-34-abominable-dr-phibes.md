@@ -6,7 +6,7 @@ post_date: 2017-01-04 10:42:45
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-34-abominable-dr-phibes/
+  https://goldenagehorror.com/episode-34-abominable-dr-phibes/
 published: true
 enclosure:
   - |
@@ -16,6 +16,14 @@ enclosure:
     a:1:{s:8:"duration";s:8:"00:53:07";}
 dsq_thread_id:
   - "5435031817"
+tags:
+  - bat murder
+  - dr phibes
+  - laminate ladies
+  - old bats
+  - vincent price
+categories:
+  - Podcasts
 ---
 <img class="aligncenter size-large wp-image-497" src="http://goldenagehorror.com/wp-content/uploads/2017/01/20140207-204303-1024x799.jpg" alt="Dr Phibes Has Great Vibes" width="676" height="527" />
 Never mind the yawns, Andrew and I agree - this film is a real barnstormer and a classic! Dr. Phibes has great vibes.

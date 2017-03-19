@@ -6,7 +6,7 @@ post_date: 2016-07-11 14:22:34
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-29-masque-red-death/
+  https://goldenagehorror.com/episode-29-masque-red-death/
 published: true
 enclosure:
   - |
@@ -16,6 +16,15 @@ enclosure:
     a:1:{s:8:"duration";s:8:"00:24:44";}
 dsq_thread_id:
   - "4991136463"
+tags:
+  - death waltz
+  - edgar allan poe
+  - masque of the red death
+  - poe
+  - roger corman
+  - vincent price
+categories:
+  - Podcasts
 ---
 <img class="alignnone size-large wp-image-455" src="http://goldenagehorror.com/wp-content/uploads/2016/07/022414masque_of_red_death_poster_031-1024x761.jpg" alt="Episode 29 - The Masque of the Red Death" width="676" height="502" />
 

@@ -5,12 +5,23 @@ author: matt
 post_date: 2015-07-22 11:36:02
 post_excerpt: ""
 layout: post
-permalink: http://goldenagehorror.com/jack-pierce/
+permalink: https://goldenagehorror.com/jack-pierce/
 published: true
 videourl:
   - ""
 dsq_thread_id:
   - "3959953942"
+tags:
+  - chaney
+  - dracula
+  - karloff
+  - lugosi
+  - pierce
+  - wolfman
+categories:
+  - Blogs
+  - Notable Personalities
+  - Other Creative Contributors
 ---
 <img class="alignnone size-full wp-image-377" src="http://goldenagehorror.com/wp-content/uploads/2015/07/6a00d83451d04569e2016301044d68970d.jpg" alt="Jack Pierce with Bela Lugosi for Son of Frankenstein" width="1000" height="800" />
 

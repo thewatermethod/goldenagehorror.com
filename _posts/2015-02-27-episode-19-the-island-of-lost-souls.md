@@ -6,7 +6,7 @@ post_date: 2015-02-27 09:05:07
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-19-the-island-of-lost-souls/
+  https://goldenagehorror.com/episode-19-the-island-of-lost-souls/
 published: true
 videourl:
   - ""
@@ -18,6 +18,17 @@ enclosure:
     a:1:{s:8:"duration";s:7:"0:24:04";}
 dsq_thread_id:
   - "3553225871"
+tags:
+  - are we not men
+  - bela lugosi
+  - charles laughton
+  - hg wells
+  - island of doctor moreau
+  - island of lost souls
+  - marlon brando
+  - val kilmer
+categories:
+  - Podcasts
 ---
 This week, Matt and Andrew cover the Island of Lost Souls starring Charles Laughton, and featuring Bela Lugosi as the Sayer of the Law. 
 

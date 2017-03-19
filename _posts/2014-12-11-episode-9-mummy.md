@@ -6,7 +6,7 @@ post_date: 2014-12-11 09:22:56
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-9-mummy/
+  https://goldenagehorror.com/episode-9-mummy/
 published: true
 enclosure:
   - |
@@ -18,6 +18,16 @@ videourl:
   - ""
 dsq_thread_id:
   - "3331910019"
+tags:
+  - "1932"
+  - david manners
+  - edward van sloan
+  - karl freund
+  - karloff
+  - Mummy
+  - Zita Johann
+categories:
+  - Podcasts
 ---
 This week, Andrew and Matt talk about the Boris Karloff 1932 horror classic The Mummy. Also starring Zita Johann, along with mainstays Edward Van Sloan and David Manners, The Mummy was directed by German director Karl Freund, he of Mad Love, Metropolis, and I Love Lucy fame.
 

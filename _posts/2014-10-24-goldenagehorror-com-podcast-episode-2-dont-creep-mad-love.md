@@ -6,7 +6,7 @@ post_date: 2014-10-24 22:46:43
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/goldenagehorror-com-podcast-episode-2-dont-creep-mad-love/
+  https://goldenagehorror.com/goldenagehorror-com-podcast-episode-2-dont-creep-mad-love/
 published: true
 enclosure:
   - |
@@ -18,6 +18,18 @@ videourl:
   - ""
 dsq_thread_id:
   - "3233642811"
+tags:
+  - anne rice
+  - boris karloff
+  - colin clive
+  - fritz lang
+  - karl freund
+  - mad love
+  - metropolis
+  - peter lorre
+  - the mummy
+categories:
+  - Podcasts
 ---
 <img class="alignnone size-large wp-image-149" src="http://goldenagehorror.com/wp-content/uploads/2014/10/Poster-Mad-Love_02-857x1024.jpg" alt="Poster - Mad Love_02" width="676" height="807" />
 

@@ -5,12 +5,15 @@ author: matt
 post_date: 2014-10-01 20:16:43
 post_excerpt: ""
 layout: post
-permalink: http://goldenagehorror.com/james-whale/
+permalink: https://goldenagehorror.com/james-whale/
 published: true
 videourl:
   - ""
 dsq_thread_id:
   - "3442257876"
+tags: [ ]
+categories:
+  - Blogs
 ---
 <img src="http://goldenagehorror.com/wp-content/uploads/2014/10/james-whale-844x1024.jpg" alt="james whale" width="676" height="820" class="alignnone size-large wp-image-89" />
 

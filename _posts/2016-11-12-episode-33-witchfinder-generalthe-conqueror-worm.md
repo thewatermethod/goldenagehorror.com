@@ -8,7 +8,7 @@ post_date: 2016-11-12 15:47:36
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-33-witchfinder-generalthe-conqueror-worm/
+  https://goldenagehorror.com/episode-33-witchfinder-generalthe-conqueror-worm/
 published: true
 enclosure:
   - |
@@ -18,6 +18,14 @@ enclosure:
     a:1:{s:8:"duration";s:7:"0:37:13";}
 dsq_thread_id:
   - "5299302240"
+tags:
+  - aip
+  - edgar allan poe
+  - michael reeves
+  - vincent price
+  - witchfinder general
+categories:
+  - Podcasts
 ---
 <img class="aligncenter size-large wp-image-490" src="http://goldenagehorror.com/wp-content/uploads/2016/11/conqueror_worm_poster_02-1024x797.jpg" alt="The Conqueror Worm Poster" width="676" height="526" />
 

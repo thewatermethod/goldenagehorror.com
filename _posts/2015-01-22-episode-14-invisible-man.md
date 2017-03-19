@@ -6,7 +6,7 @@ post_date: 2015-01-22 22:01:18
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-14-invisible-man/
+  https://goldenagehorror.com/episode-14-invisible-man/
 published: true
 videourl:
   - ""
@@ -18,6 +18,14 @@ enclosure:
     a:1:{s:8:"duration";s:8:"00:20:27";}
 dsq_thread_id:
   - "3447146750"
+tags:
+  - claude rains
+  - invisible man
+  - james whale
+  - james whale january
+  - una o connor
+categories:
+  - Podcasts
 ---
 Andrew and Matt talk about the 1933 James Whale directed horror film THE INVISIBLE MAN, which stars Claude Rains and the everpresent Una O'Connor.
 

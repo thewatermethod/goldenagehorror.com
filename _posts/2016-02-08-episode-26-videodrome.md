@@ -6,7 +6,7 @@ post_date: 2016-02-08 14:06:07
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-26-videodrome/
+  https://goldenagehorror.com/episode-26-videodrome/
 published: true
 enclosure:
   - |
@@ -16,6 +16,15 @@ enclosure:
     a:1:{s:8:"duration";s:8:"00:19:03";}
 dsq_thread_id:
   - "4605275589"
+tags:
+  - blondie
+  - cronenberg
+  - debbie harry
+  - IRON MAIDEN
+  - videodrome
+  - woods
+categories:
+  - Podcasts
 ---
 <img class="alignnone size-large wp-image-416" src="http://goldenagehorror.com/wp-content/uploads/2016/02/videodrome_1-773x1024.jpg" alt="GoldenAgeHorror Episode 26 Videodrome" width="676" height="896" />
 

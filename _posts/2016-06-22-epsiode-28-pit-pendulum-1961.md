@@ -6,7 +6,7 @@ post_date: 2016-06-22 11:02:11
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/epsiode-28-pit-pendulum-1961/
+  https://goldenagehorror.com/epsiode-28-pit-pendulum-1961/
 published: true
 enclosure:
   - |
@@ -16,6 +16,19 @@ enclosure:
     a:1:{s:8:"duration";s:8:"00:22:00";}
 dsq_thread_id:
   - "4930494047"
+tags:
+  - aip
+  - barbara steele
+  - butterfly kisses
+  - edgar allan poe
+  - pinocchio
+  - poe
+  - roger corman
+  - the pit and the pendulum
+  - vincent price
+  - whales
+categories:
+  - Podcasts
 ---
 For June, Andrew and Matt talk about the Vincent Price/Roger Corman jam The Pit and the Pendulum. Barbara Steele also stars.
 

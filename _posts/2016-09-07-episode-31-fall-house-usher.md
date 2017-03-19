@@ -6,7 +6,7 @@ post_date: 2016-09-07 21:21:19
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-31-fall-house-usher/
+  https://goldenagehorror.com/episode-31-fall-house-usher/
 published: true
 enclosure:
   - |
@@ -16,6 +16,22 @@ enclosure:
     a:1:{s:8:"duration";s:8:"00:24:43";}
 dsq_thread_id:
   - "5127584728"
+tags:
+  - aip
+  - bergman
+  - Burt Shonberg
+  - charlton heston
+  - edgar allan poe
+  - fall of the house of usher
+  - max von sydow
+  - Merlin
+  - poe
+  - richard matheson
+  - roger corman
+  - Sandman
+  - vincent price
+categories:
+  - Podcasts
 ---
 <img class="aligncenter wp-image-473 size-large" src="http://goldenagehorror.com/wp-content/uploads/2016/09/maxresdefault-1024x768.jpg" alt="The Fall of the House of Usher podcast" width="676" height="507" />
 

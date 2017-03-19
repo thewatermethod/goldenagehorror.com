@@ -6,7 +6,7 @@ post_date: 2015-10-08 19:47:15
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-22-dr-jekyll-and-mr-hyde/
+  https://goldenagehorror.com/episode-22-dr-jekyll-and-mr-hyde/
 published: true
 enclosure:
   - |
@@ -18,6 +18,14 @@ videourl:
   - ""
 dsq_thread_id:
   - "4207501481"
+tags:
+  - Dr Jekyll
+  - Fredric March
+  - League of Extraordinary Gentlemen
+  - My Hyde
+  - Robert Louis Stevenson
+categories:
+  - Podcasts
 ---
 <img class="alignnone size-full wp-image-397" src="http://goldenagehorror.com/wp-content/uploads/2015/10/JekyllHyde1931.jpg" alt="Dr Jekyll and Mr Hyde Fredric March 1931" width="334" height="425" />
 

@@ -6,7 +6,7 @@ post_date: 2014-12-18 17:50:01
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-10-testament-dr-mabuse/
+  https://goldenagehorror.com/episode-10-testament-dr-mabuse/
 published: true
 enclosure:
   - |
@@ -18,6 +18,9 @@ videourl:
   - ""
 dsq_thread_id:
   - "3340183411"
+tags: [ ]
+categories:
+  - Podcasts
 ---
 <img class="aligncenter size-large wp-image-254" src="http://goldenagehorror.com/wp-content/uploads/2014/12/The-Testament-of-Dr-Mabuse-855x1024.jpg" alt="The Testament of Dr Mabuse" width="676" height="810" />
 

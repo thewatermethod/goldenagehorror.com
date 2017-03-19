@@ -6,7 +6,7 @@ post_date: 2015-01-15 21:41:13
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-13-bride-frankenstein/
+  https://goldenagehorror.com/episode-13-bride-frankenstein/
 published: true
 enclosure:
   - |
@@ -18,6 +18,12 @@ videourl:
   - ""
 dsq_thread_id:
   - "3424633676"
+tags:
+  - elsa lanchester
+  - james whale january
+  - ride the lightning
+categories:
+  - Podcasts
 ---
 Andrew hates Una O'Connor. Matt doesn't, but he thinks George Gordon Byron's pants are too tight. This week we talk about on the greatest movies ever made, The Bride of Frankenstein, starring Boris Karloff, Colin Clive and Elsa Lanchester, and directed by James Whale.
 <!--more-->

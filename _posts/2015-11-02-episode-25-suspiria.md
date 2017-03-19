@@ -6,7 +6,7 @@ post_date: 2015-11-02 22:37:44
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-25-suspiria/
+  https://goldenagehorror.com/episode-25-suspiria/
 published: true
 enclosure:
   - |
@@ -16,6 +16,14 @@ enclosure:
     a:1:{s:8:"duration";s:8:"00:25:23";}
 dsq_thread_id:
   - "4287417980"
+tags:
+  - dario argento
+  - goblin
+  - metalocalypse
+  - suspiria
+  - venture bros
+categories:
+  - Podcasts
 ---
 <img class="alignnone size-full wp-image-411" src="http://goldenagehorror.com/wp-content/uploads/2015/11/Suspiria.jpg" alt="Suspiria Podcast" width="518" height="755" />
 

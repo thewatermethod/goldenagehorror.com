@@ -6,7 +6,7 @@ post_date: 2016-10-01 17:33:11
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-32-horror-dracula/
+  https://goldenagehorror.com/episode-32-horror-dracula/
 published: true
 enclosure:
   - |
@@ -16,6 +16,13 @@ enclosure:
     a:1:{s:8:"duration";s:7:"0:44:46";}
 dsq_thread_id:
   - "5189041153"
+tags:
+  - Christopher Lee
+  - dracula
+  - hammer
+  - peter cushing
+categories:
+  - Podcasts
 ---
 <img class="aligncenter size-full wp-image-481" src="http://goldenagehorror.com/wp-content/uploads/2016/10/Dracula_1958_c.jpg" alt="dracula_1958_c" width="866" height="473" />
 Happy Halloween Season! This week, Andrew and Matt discuss their first Hammer Horror film, The Horror of Dracula starring Christopher Lee and Peter Cushing

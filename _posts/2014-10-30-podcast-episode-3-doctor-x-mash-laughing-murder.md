@@ -6,7 +6,7 @@ post_date: 2014-10-30 19:32:07
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/podcast-episode-3-doctor-x-mash-laughing-murder/
+  https://goldenagehorror.com/podcast-episode-3-doctor-x-mash-laughing-murder/
 published: true
 enclosure:
   - |
@@ -18,6 +18,16 @@ videourl:
   - ""
 dsq_thread_id:
   - "3215790107"
+tags:
+  - Cannibal Holocaust
+  - doctor x
+  - fay wray
+  - King Kong
+  - lionel atwill
+  - Rocky Horror Picture Show
+  - Son of Frankenstein
+categories:
+  - Podcasts
 ---
 <img class="alignnone size-full wp-image-154" src="http://goldenagehorror.com/wp-content/uploads/2014/10/Doctor-X-2.jpg" alt="Doctor X 2" width="640" height="494" />
 

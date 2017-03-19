@@ -6,7 +6,7 @@ post_date: 2017-02-08 12:35:50
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-35-dr-phibes-rises/
+  https://goldenagehorror.com/episode-35-dr-phibes-rises/
 published: true
 enclosure:
   - |
@@ -16,6 +16,9 @@ enclosure:
     a:1:{s:8:"duration";s:8:"00:29:15";}
 dsq_thread_id:
   - "5533862422"
+tags: [ ]
+categories:
+  - Podcasts
 ---
 <img class="aligncenter size-large wp-image-515" src="http://goldenagehorror.com/wp-content/uploads/2017/02/again1-1-1024x806.jpg" alt="" width="676" height="532" />
 

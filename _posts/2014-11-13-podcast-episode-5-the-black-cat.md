@@ -6,7 +6,7 @@ post_date: 2014-11-13 22:25:14
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/podcast-episode-5-the-black-cat/
+  https://goldenagehorror.com/podcast-episode-5-the-black-cat/
 published: true
 videourl:
   - ""
@@ -18,6 +18,15 @@ enclosure:
     a:1:{s:8:"duration";s:8:"00:16:24";}
 dsq_thread_id:
   - "3222730802"
+tags:
+  - karloff
+  - lugosi
+  - podcast
+  - poe
+  - the black cat
+  - ulmer
+categories:
+  - Podcasts
 ---
 This movie is so good! I could watch The Black Cat every night.
 

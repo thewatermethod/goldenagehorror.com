@@ -5,12 +5,19 @@ author: matt
 post_date: 2014-12-10 21:17:00
 post_excerpt: ""
 layout: post
-permalink: http://goldenagehorror.com/zita-johann/
+permalink: https://goldenagehorror.com/zita-johann/
 published: true
 videourl:
   - ""
 dsq_thread_id:
   - "3316949115"
+tags:
+  - Mummy
+  - Zita Johann
+categories:
+  - Actors and Actresses
+  - Blogs
+  - Notable Personalities
 ---
 <img src="http://goldenagehorror.com/wp-content/uploads/2014/12/Zita-Johann-832x1024.jpg" alt="Zita Johann" width="676" height="832" class="aligncenter size-large wp-image-240" />
 

@@ -6,12 +6,15 @@ post_date: 2014-10-11 21:56:50
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/capital-w-weirdness/
+  https://goldenagehorror.com/capital-w-weirdness/
 published: true
 videourl:
   - ""
 dsq_thread_id:
   - "3233666857"
+tags: [ ]
+categories:
+  - Blogs
 ---
 <img class="aligncenter wp-image-115 size-full" src="http://goldenagehorror.com/wp-content/uploads/2014/10/weird_tales_193310.jpg" alt="weird tales" width="360" height="552" />
 <blockquote>The true weird tale has something more than secret murder, bloody bones, or a sheeted form clanking chains according to rule. A certain atmosphere of breathless and unexplainable dread of outer, unknown forces must be present; and there must be a hint, expressed with a seriousness and portentousness becoming its subject, of that most terrible conception of the human brain--a malign and particular suspension or defeat of those fixed laws of Nature which are our only safeguard against the assaults of chaos and the daemons of unplumbed space.

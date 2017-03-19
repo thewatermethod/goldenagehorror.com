@@ -6,10 +6,12 @@ post_date: 2014-09-13 00:36:34
 post_excerpt: ""
 layout: page
 permalink: >
-  http://goldenagehorror.com/we-belong-dead/
+  https://goldenagehorror.com/we-belong-dead/
 published: true
 dsq_thread_id:
   - "3211903088"
+tags: [ ]
+categories: [ ]
 ---
 All Godless Here: The Golden Age of Horror 1930-1939 is an eBook written by me, Matt Bevilacqua and illustrated by <a href="http://www.pizzapranks.com">webcomics artist</a> <a href="http://kiwimonsta.deviantart.com/">Gino Vasconcelos</a>
 

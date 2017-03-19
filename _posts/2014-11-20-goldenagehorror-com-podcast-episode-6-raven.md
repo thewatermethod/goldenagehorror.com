@@ -6,7 +6,7 @@ post_date: 2014-11-20 07:40:21
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/goldenagehorror-com-podcast-episode-6-raven/
+  https://goldenagehorror.com/goldenagehorror-com-podcast-episode-6-raven/
 published: true
 enclosure:
   - |
@@ -18,6 +18,13 @@ videourl:
   - ""
 dsq_thread_id:
   - "3249568072"
+tags:
+  - bela lugosi
+  - boris karloff
+  - edgar allan poe
+  - the raven
+categories:
+  - Podcasts
 ---
 <img class="alignnone size-full wp-image-187" src="http://goldenagehorror.com/wp-content/uploads/2014/11/vlcsnap-2547830.png" alt="vlcsnap-2547830" width="640" height="480" />
 

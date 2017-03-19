@@ -6,7 +6,7 @@ post_date: 2015-03-06 00:00:17
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-20-freaks/
+  https://goldenagehorror.com/episode-20-freaks/
 published: true
 enclosure:
   - |
@@ -18,6 +18,15 @@ videourl:
   - ""
 dsq_thread_id:
   - "3560262671"
+tags:
+  - Circus
+  - dracula
+  - Freaks
+  - Lon Chaney
+  - Tod Browning
+  - We Accept You
+categories:
+  - Podcasts
 ---
 This week, Andrew and Matt discuss the ableist classic, <a href="http://www.amazon.com/gp/product/B00027JYLC/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00027JYLC&amp;linkCode=as2&amp;tag=cthudice-20&amp;linkId=U2HVAPC3VM52UZ5E">Freaks</a><img style="border: none !important; margin: 0px !important;" src="http://ir-na.amazon-adsystem.com/e/ir?t=cthudice-20&amp;l=as2&amp;o=1&amp;a=B00027JYLC" alt="" width="1" height="1" border="0" />.
 

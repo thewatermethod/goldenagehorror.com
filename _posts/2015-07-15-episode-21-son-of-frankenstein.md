@@ -6,7 +6,7 @@ post_date: 2015-07-15 00:03:48
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-21-son-of-frankenstein/
+  https://goldenagehorror.com/episode-21-son-of-frankenstein/
 published: true
 enclosure:
   - |
@@ -18,6 +18,14 @@ videourl:
   - ""
 dsq_thread_id:
   - "3935586495"
+tags:
+  - basil rathbone
+  - bela lugosi
+  - boris karloff
+  - frankenstein
+  - mediocrity
+categories:
+  - Podcasts
 ---
 <img src="http://goldenagehorror.com/wp-content/uploads/2015/07/Bela-Ygor4.jpg" alt="Bela and Boris in The Son of Frankenstein" width="383" height="480" class="alignnone size-full wp-image-381" />
 

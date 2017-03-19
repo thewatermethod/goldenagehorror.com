@@ -6,7 +6,7 @@ post_date: 2015-01-08 17:58:14
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-12-frankenstein/
+  https://goldenagehorror.com/episode-12-frankenstein/
 published: true
 enclosure:
   - |
@@ -18,6 +18,15 @@ videourl:
   - ""
 dsq_thread_id:
   - "3403150243"
+tags:
+  - boris karloff
+  - edward van sloan
+  - frankenstein
+  - james whale
+  - james whale january
+  - preying mantis dracula
+categories:
+  - Podcasts
 ---
 Andew and Matt are Alive!!!!!!! Kicking off James Whale January with "Frankenstein" the 1931 film starring Boris Karloff.
 

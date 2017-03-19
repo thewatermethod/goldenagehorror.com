@@ -6,7 +6,7 @@ post_date: 2015-10-20 08:54:15
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-23-the-phantom-of-the-paradise/
+  https://goldenagehorror.com/episode-23-the-phantom-of-the-paradise/
 published: true
 enclosure:
   - |
@@ -16,6 +16,16 @@ enclosure:
     a:1:{s:8:"duration";s:8:"00:21:35";}
 dsq_thread_id:
   - "4247271625"
+tags:
+  - beef
+  - brian de palma
+  - jessica harper
+  - phantom of the opera
+  - phantom of the paradise
+  - rock opera
+  - Rocky Horror Picture Show
+categories:
+  - Podcasts
 ---
 <img src="http://goldenagehorror.com/wp-content/uploads/2015/10/POTP1.jpg" alt="Phantom of the Paradise" width="800" height="1221" class="alignnone size-full wp-image-403" />
 

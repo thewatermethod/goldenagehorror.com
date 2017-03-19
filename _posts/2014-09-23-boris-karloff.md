@@ -6,12 +6,15 @@ post_date: 2014-09-23 19:25:42
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/boris-karloff/
+  https://goldenagehorror.com/boris-karloff/
 published: true
 videourl:
   - ""
 dsq_thread_id:
   - "3393264420"
+tags: [ ]
+categories:
+  - Blogs
 ---
 <img class="alignnone wp-image-63 size-medium" src="http://goldenagehorror.com/wp-content/uploads/2014/09/Boris-Karloff-Golden-Age-Horror-All-Godless-Here-249x300.jpg" alt="Boris Karloff Golden Age Horror All Godless Here" width="249" height="300" />
 

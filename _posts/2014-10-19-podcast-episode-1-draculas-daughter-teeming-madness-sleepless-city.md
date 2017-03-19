@@ -6,7 +6,7 @@ post_date: 2014-10-19 23:34:41
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/podcast-episode-1-draculas-daughter-teeming-madness-sleepless-city/
+  https://goldenagehorror.com/podcast-episode-1-draculas-daughter-teeming-madness-sleepless-city/
 published: true
 enclosure:
   - |
@@ -18,6 +18,15 @@ videourl:
   - ""
 dsq_thread_id:
   - "3233664523"
+tags:
+  - carmilla
+  - dracula
+  - "dracula's daughter"
+  - lugosi
+  - podcast
+  - van helsing
+categories:
+  - Podcasts
 ---
 <img class="alignnone size-full wp-image-134" src="http://goldenagehorror.com/wp-content/uploads/2014/10/pre-production-promotional-poster.jpg" alt="pre-production-promotional-poster" width="1000" height="485" />
 

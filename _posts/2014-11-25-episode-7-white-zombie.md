@@ -6,7 +6,7 @@ post_date: 2014-11-25 22:26:37
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-7-white-zombie/
+  https://goldenagehorror.com/episode-7-white-zombie/
 published: true
 enclosure:
   - |
@@ -18,6 +18,11 @@ videourl:
   - ""
 dsq_thread_id:
   - "3263440368"
+tags:
+  - lugosi
+  - White Zombie
+categories:
+  - Podcasts
 ---
 <img src="http://goldenagehorror.com/wp-content/uploads/2014/11/Poster-White-Zombie_21-1024x796.jpg" alt="Lugosi in White Zombie" width="676" height="525" class="alignnone size-large wp-image-208" />
 

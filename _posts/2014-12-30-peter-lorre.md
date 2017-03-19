@@ -5,12 +5,17 @@ author: matt
 post_date: 2014-12-30 15:21:16
 post_excerpt: ""
 layout: post
-permalink: http://goldenagehorror.com/peter-lorre/
+permalink: https://goldenagehorror.com/peter-lorre/
 published: true
 videourl:
   - ""
 dsq_thread_id:
   - "3374647378"
+tags: [ ]
+categories:
+  - Actors and Actresses
+  - Blogs
+  - Notable Personalities
 ---
 <img class="aligncenter size-full wp-image-271" src="http://goldenagehorror.com/wp-content/uploads/2014/12/peter-lorre-m-1.jpg" alt="peter-lorre-m-1" width="720" height="540" />
 

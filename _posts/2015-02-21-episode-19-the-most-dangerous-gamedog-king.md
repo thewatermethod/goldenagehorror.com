@@ -6,7 +6,7 @@ post_date: 2015-02-21 16:05:21
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-19-the-most-dangerous-gamedog-king/
+  https://goldenagehorror.com/episode-19-the-most-dangerous-gamedog-king/
 published: true
 enclosure:
   - |
@@ -18,6 +18,22 @@ videourl:
   - ""
 dsq_thread_id:
   - "3536460668"
+tags:
+  - dog king
+  - fay wray
+  - irving pichel
+  - joel mccrea
+  - King Kong
+  - leslie banks
+  - noble johnson
+  - rat king
+  - richard connell
+  - the most dangerous game
+  - to serve man
+  - whatever happened to her?
+  - zaroff
+categories:
+  - Podcasts
 ---
 Matt and Andrew ponder the question - just what is the most dangerous game?
 

@@ -6,7 +6,7 @@ post_date: 2016-08-12 21:11:16
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/the-haunted-palace/
+  https://goldenagehorror.com/the-haunted-palace/
 published: true
 enclosure:
   - |
@@ -16,6 +16,16 @@ enclosure:
     a:1:{s:8:"duration";s:8:"00:32:39";}
 dsq_thread_id:
   - "5061880144"
+tags:
+  - charles dexter ward
+  - hamface
+  - lon chaney jr
+  - lovecraft
+  - roger corman
+  - the resurrected
+  - vincent price
+categories:
+  - Podcasts
 ---
 <img class="alignnone size-large wp-image-462" src="http://goldenagehorror.com/wp-content/uploads/2016/08/hauntedpalace_cover_2_PREVIEW-871x1024.jpg" alt="The Haunted Palace movie poster, Blu-ray sleeve design for Arrow Films release of the Vincent Price/Roger Corman classic ‘The Haunted Palace’, part of the Six Gothic Tales box-set." width="676" height="795" />
 

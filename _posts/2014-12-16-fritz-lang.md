@@ -5,12 +5,16 @@ author: matt
 post_date: 2014-12-16 12:24:47
 post_excerpt: ""
 layout: post
-permalink: http://goldenagehorror.com/fritz-lang/
+permalink: https://goldenagehorror.com/fritz-lang/
 published: true
 videourl:
   - ""
 dsq_thread_id:
   - "3331908843"
+tags: [ ]
+categories:
+  - Blogs
+  - Directors
 ---
 <img src="http://goldenagehorror.com/wp-content/uploads/2014/12/Fritz-Lang-young.jpg" alt="A Young Fritz Lang" width="281" height="423" class="aligncenter size-full wp-image-249" />
 

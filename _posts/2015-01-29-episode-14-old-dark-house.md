@@ -6,7 +6,7 @@ post_date: 2015-01-29 21:10:13
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-14-old-dark-house/
+  https://goldenagehorror.com/episode-14-old-dark-house/
 published: true
 enclosure:
   - |
@@ -18,6 +18,14 @@ videourl:
   - ""
 dsq_thread_id:
   - "3469063085"
+tags:
+  - gloria stuart
+  - james whale
+  - karloff
+  - melvin douglas
+  - old dark house
+categories:
+  - Podcasts
 ---
 Andrew and Matt talk about the 1932 old dark house film, <em>THE OLD DARK HOUSE</em>.
 

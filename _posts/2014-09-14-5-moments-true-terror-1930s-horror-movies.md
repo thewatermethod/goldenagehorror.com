@@ -6,10 +6,13 @@ post_date: 2014-09-14 00:31:07
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/5-moments-true-terror-1930s-horror-movies/
+  https://goldenagehorror.com/5-moments-true-terror-1930s-horror-movies/
 published: true
 videourl:
   - ""
+tags: [ ]
+categories:
+  - Blogs
 ---
 <img class="alignnone size-large wp-image-44" src="http://goldenagehorror.com/wp-content/uploads/2014/09/Invisible-Man-SFX-1024x819.jpg" alt="Invisible Man Golden Age Horror We Belong Dead" width="676" height="540" />
 

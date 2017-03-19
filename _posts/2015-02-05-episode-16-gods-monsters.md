@@ -6,7 +6,7 @@ post_date: 2015-02-05 21:58:53
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-16-gods-monsters/
+  https://goldenagehorror.com/episode-16-gods-monsters/
 published: true
 enclosure:
   - |
@@ -18,6 +18,20 @@ videourl:
   - ""
 dsq_thread_id:
   - "3489957265"
+tags:
+  - "1998"
+  - bill condon
+  - boris karloff
+  - brendan fraser
+  - gandalf
+  - gods and monsters
+  - green hell
+  - have a potato
+  - ian mckellan
+  - james whale
+  - the wishmaster
+categories:
+  - Podcasts
 ---
 This week, Andrew and Matt talk about the 1998 film GODS AND MONSTERS, the James Whale biopic by Bill Condon starring Ian McKellen, which we decided would be an excellent conclusion to James Whale January.
 

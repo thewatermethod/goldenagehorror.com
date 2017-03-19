@@ -6,7 +6,7 @@ post_date: 2014-12-04 09:33:25
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-8-dracula/
+  https://goldenagehorror.com/episode-8-dracula/
 published: true
 enclosure:
   - |
@@ -18,6 +18,9 @@ videourl:
   - ""
 dsq_thread_id:
   - "3290068123"
+tags: [ ]
+categories:
+  - Podcasts
 ---
 <img class="aligncenter size-large wp-image-231" src="http://goldenagehorror.com/wp-content/uploads/2014/12/Dracula-1931-1-678x1024.jpg" alt="Dracula (1931)" width="676" height="1020" />
 

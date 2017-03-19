@@ -6,12 +6,15 @@ post_date: 2014-11-06 22:18:43
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/murders-rue-morgue-1932/
+  https://goldenagehorror.com/murders-rue-morgue-1932/
 published: true
 videourl:
   - ""
 dsq_thread_id:
   - "3210816452"
+tags: [ ]
+categories:
+  - Blogs
 ---
 <img class="alignnone size-full wp-image-166" src="http://goldenagehorror.com/wp-content/uploads/2014/11/final_draft_html_23cf4f2e.gif" alt="Bela Lugosi as Doctor Mirakle from Murders in the Rue Morgue" width="605" height="668" />
 

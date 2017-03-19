@@ -5,10 +5,12 @@ author: matt
 post_date: 2014-09-23 20:02:03
 post_excerpt: ""
 layout: page
-permalink: http://goldenagehorror.com/author/
+permalink: https://goldenagehorror.com/author/
 published: true
 dsq_thread_id:
-  - "3253912212"
+  - "5647267317"
+tags: [ ]
+categories: [ ]
 ---
 <style>hr{ width: 100%; clear: both; }</style>
 <div style="width: 100%; clear: both;">

@@ -6,12 +6,15 @@ post_date: 2015-01-07 21:43:01
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/symbolist-movement/
+  https://goldenagehorror.com/symbolist-movement/
 published: true
 videourl:
   - ""
 dsq_thread_id:
   - "3400349028"
+tags: [ ]
+categories:
+  - Blogs
 ---
 [caption id="attachment_283" align="aligncenter" width="676"]<img class="wp-image-283 size-large" title="Sirin and Alkonost by Viktor Vasnetsov" src="http://goldenagehorror.com/wp-content/uploads/2015/01/Vasnetsov_Sirin_Alkonost-1024x581.jpg" alt="Sirin and Alkonost by Viktor Vasnetsov" width="676" height="384" /> Sirin and Alkonost by Viktor Vasnetsov[/caption]
 

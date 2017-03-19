@@ -6,7 +6,7 @@ post_date: 2015-02-12 21:33:47
 post_excerpt: ""
 layout: post
 permalink: >
-  http://goldenagehorror.com/episode-17-vampyr-fugue-state-masquerading-movie/
+  https://goldenagehorror.com/episode-17-vampyr-fugue-state-masquerading-movie/
 published: true
 enclosure:
   - |
@@ -18,6 +18,14 @@ videourl:
   - ""
 dsq_thread_id:
   - "3527330741"
+tags:
+  - dreyer
+  - fugue state
+  - gunzberg
+  - lovecraft
+  - vampyr
+categories:
+  - Podcasts
 ---
 This week, Andrew and Matt discuss the freaky surrealistic dreamscape Vampyr, directed by Carl Dryer.
 

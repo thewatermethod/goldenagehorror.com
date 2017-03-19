@@ -5,12 +5,15 @@ author: matt
 post_date: 2014-10-22 22:54:37
 post_excerpt: ""
 layout: post
-permalink: http://goldenagehorror.com/bela-lugosi/
+permalink: https://goldenagehorror.com/bela-lugosi/
 published: true
 videourl:
   - ""
 dsq_thread_id:
   - "3211825469"
+tags: [ ]
+categories:
+  - Blogs
 ---
 <img class="alignnone size-large wp-image-146" src="http://goldenagehorror.com/wp-content/uploads/2014/10/Annex-Lugosi-Bela_02-796x1024.jpg" alt="Annex - Lugosi, Bela_02" width="676" height="869" />
 
