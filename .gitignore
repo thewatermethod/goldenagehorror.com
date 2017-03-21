@@ -5,6 +5,12 @@
 *.bak
 *.swp
 Thumbs.db
+.htaccess
+apple-touch-icon-precomposed.png
+apple-touch-icon.png
+favicon.gif
+favicon.ico
+quickstart.html
 
 # wordpress specific
 wp-config.php
@@ -16,6 +22,27 @@ wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
 wp-content/cache/*
 wp-content/cache/supercache/*
+wp-content/plugins/akismet/
+wp-content/plugins/autoptimize/
+wp-content/plugins/captain-typekit/
+wp-content/plugins/disqus-comment-system/
+wp-content/plugins/hyperdb-1-1/
+wp-content/plugins/hyperdb/
+wp-content/plugins/jetpack/
+wp-content/plugins/powerpress/
+wp-content/plugins/really-simple-ssl/
+wp-content/plugins/sucuri-scanner/
+wp-content/plugins/wordpress-seo/
+wp-content/plugins/wp-github-sync/
+wp-content/plugins/wp-github-sync-meta/
+wp-content/plugins/wp-smushit/
+wp-content/plugins/wysija-newsletters/
+wp-content/themes/hemingway/
+wp-content/themes/pilcrow/
+wp-content/themes/twentyfifteen/
+wp-content/themes/twentyseventeen/
+wp-content/themes/twentysixteen/
+
 
 # wpengine specific
 .smushit-status
@@ -27,6 +54,7 @@ wp-content/mu-plugins/slt-force-strong-passwords.php
 wp-content/mu-plugins/limit-login-attempts
 wp-content/mu-plugins/wpengine-common
 wp-content/mysql.sql
+wp-content/mu-plugins
 
 # wp core (as of 3.4.1)
 /db-config.php
