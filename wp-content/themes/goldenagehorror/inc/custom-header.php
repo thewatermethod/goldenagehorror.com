@@ -20,9 +20,9 @@ function goldenagehorror_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'goldenagehorror_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
-		'width'                  => 1000,
-		'height'                 => 250,
+		'width'                  => 1900,
 		'flex-height'            => true,
+		'flex-width'			 => true,
 		'wp-head-callback'       => 'goldenagehorror_header_style',
 	) ) );
 }

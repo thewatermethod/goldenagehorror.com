@@ -105,7 +105,11 @@ add_action( 'widgets_init', 'goldenagehorror_widgets_init' );
  * Enqueue scripts and styles.
  */
 function goldenagehorror_scripts() {
-	wp_enqueue_style( 'goldenagehorror-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Passion+One');
+
+	wp_enqueue_style( 'basic-styles', get_stylesheet_uri() );
+
+	wp_enqueue_style( 'goldenagehorror_styles', get_template_directory_uri() . '/css/custom.css');
 
 	wp_enqueue_script( 'goldenagehorror-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
@@ -141,3 +145,8 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Allow SVG upload
+ */
+require get_template_directory() . '/inc/svg-upload.php';

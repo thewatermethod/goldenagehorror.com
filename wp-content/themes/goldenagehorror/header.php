@@ -23,7 +23,8 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'goldenagehorror' ); ?></a>
 
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header" role="banner" >
+		<div class="site-header overlay" style="background-image: url('<?php echo get_header_image(); ?>')"></div>
 		<div class="site-branding">
 			<?php
 			if ( is_front_page() && is_home() ) : ?>
@@ -31,13 +32,8 @@
 			<?php else : ?>
 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 			<?php
-			endif;
-
-			$description = get_bloginfo( 'description', 'display' );
-			if ( $description || is_customize_preview() ) : ?>
-				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-			<?php
 			endif; ?>
+
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
@@ -47,3 +43,9 @@
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
+
+	<?php if( is_home() || is_front_page() ) : 
+
+		get_template_part( 'template-parts/content', 'featured-category' );
+			
+	endif; ?>

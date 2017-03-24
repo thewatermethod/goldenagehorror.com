@@ -1,0 +1,87 @@
+
+/*--------------------------------------------------------------
+## Custom CSS
+--------------------------------------------------------------*/
+
+body{
+	overflow-x: hidden;
+}
+
+.site-header{
+	width: 100vw;
+	height: 45vh; 
+    background: no-repeat top center;
+    background-size: cover;
+
+}
+
+.site-header.overlay{
+	position: absolute;
+	bottom: 0;
+}
+
+
+header.site-header{
+	width: 100vw;
+	height: 50vh;
+	position: relative;
+	background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);;
+}	
+
+.site-branding, .site-title{
+	clear: none;
+	float: left;
+}
+
+.site-title{
+
+}
+
+.site-title a{
+	color: white;
+	text-decoration: none;
+	padding: 1rem;
+}
+
+.main-navigation{
+	float: right;
+	width: auto;
+	clear: none;
+	padding: 1rem 3rem 1rem 1rem;
+
+}
+
+.main-navigation li{
+	display: inline-block;
+	padding: 1rem;
+}
+
+.main-navigation li a{
+	font-family: 'Passion One', cursive;
+	font-size: 1.5rem;
+	color: white;
+}
+.main-navigation li a:hover{
+
+}
+
+div.site-content{
+	background: black;
+}
+
+.featured-category h2{
+	text-align: center;
+	color: white;
+	font-size: 2.25rem;
+}
+
+.featured-category article{
+	width: 75%;
+	max-width: 1200px;
+	margin: 100px auto;
+}
+
+.content-area{
+	background: white;
+}
+
