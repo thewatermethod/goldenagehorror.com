@@ -105,7 +105,7 @@ add_action( 'widgets_init', 'goldenagehorror_widgets_init' );
  * Enqueue scripts and styles.
  */
 function goldenagehorror_scripts() {
-	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Passion+One');
+	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Passion+One|Source+Serif+Pro');
 
 	wp_enqueue_style( 'basic-styles', get_stylesheet_uri() );
 
@@ -114,6 +114,9 @@ function goldenagehorror_scripts() {
 	wp_enqueue_script( 'goldenagehorror-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'goldenagehorror-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+
+	wp_enqueue_script( 'goldenagehorror-custom-scripts', get_template_directory_uri() . '/js/custom.js', array('jquery'), '20151215', true );
+
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

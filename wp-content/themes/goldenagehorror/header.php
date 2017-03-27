@@ -46,6 +46,7 @@
 
 	<?php if( is_home() || is_front_page() ) : 
 
+		get_template_part( 'template-parts/content', 'masthead'); 
 		get_template_part( 'template-parts/content', 'featured-category' );
 			
 	endif; ?>

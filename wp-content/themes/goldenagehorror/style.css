@@ -266,9 +266,9 @@ input,
 select,
 textarea {
 	color: #404040;
-	font-family: Georgia, serif;
+	font-family: 'Source Serif Pro', serif;
 	font-size: 16px;
-	font-size: 1rem;
+	font-size: 1.25rem;
 	line-height: 1.5;
 }
 
@@ -507,11 +507,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
-}
-
-a:visited {
-	color: purple;
+	color: #325F95;;
 }
 
 a:hover,

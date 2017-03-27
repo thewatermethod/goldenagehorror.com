@@ -6,47 +6,45 @@
  *
  * @package The_Golden_Age_Horror_Podcast
  */
-
-
+		wp_reset_postdata();
 		$cat = get_theme_mod('featured_category');
-		$args = array(
 
-			'posts_per_page' => '1',
-			'category' => $cat
+		if( $cat != 0 ){			
+		
+			$args = array( 'posts_per_page' => '1', 'category' => $cat);
+			$featured_post = new WP_Query($args);
 
-		);
-?>
+			if( $featured_post->have_posts() ) : ?>
 
-<div <?php post_class('featured-category'); ?>>
-	
-	<h2><?php echo get_theme_mod('featured_category_text'); ?></h2>
+				<?php while ( $featured_post->have_posts() ) : $featured_post->the_post(); ?>
 
-	<article>
+					<div <?php post_class('featured-category'); ?>>
+						
+						<h2><?php echo get_theme_mod('featured_category_text'); ?></h2>
 
-		<header class="entry-header">
-			<?php the_title( '<h3 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h3>' ); ?>
-			
-		</header><!-- .entry-header -->
+						<article>
 
-		<div class="entry-content">
-			<?php
-				the_content( sprintf(
-					/* translators: %s: Name of current post. */
-					wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'goldenagehorror' ), array( 'span' => array( 'class' => array() ) ) ),
-					the_title( '<span class="screen-reader-text">"', '"</span>', false )
-				) );
+							<header class="entry-header">
+								<h3 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
+								
+							</header><!-- .entry-header -->
 
-				wp_link_pages( array(
-					'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'goldenagehorror' ),
-					'after'  => '</div>',
-				) );
-			?>
-		</div><!-- .entry-content -->
+							<div class="entry-content">
+								<?php the_post_thumbnail('medium'); ?>
+								<?php the_excerpt(); ?>
+								<?php the_powerpress_content(); ?>
+								<a class="button" href="<?php the_permalink(); ?>">Read More</a>
 
-		<footer class="entry-footer">
-			<?php goldenagehorror_entry_footer(); ?>
-		</footer><!-- .entry-footer -->
+							</div><!-- .entry-content -->
 
-	</article><!-- #post-## -->
+						</article><!-- #post-## -->
 
-</div>
+					</div>
+			<?php 	
+
+				endwhile;
+
+			endif;
+
+			wp_reset_postdata();
+		}
