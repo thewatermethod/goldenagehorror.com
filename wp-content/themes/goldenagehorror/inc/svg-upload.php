@@ -1,4 +1,7 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 
 //Allows svg to be processed through the wordpress media uploader
 function goldenagehorror_mime_types($mimes) {

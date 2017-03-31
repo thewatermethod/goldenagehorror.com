@@ -1,6 +1,5 @@
-<?php // Template Name: Home ?>
+<?php // Template Name: Home 
 
-<?php
 /**
  *
  * Custom home page template
@@ -12,10 +11,38 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+	<div id="primary" class="content-area ">
+		<h2>Browse our archives</h2>
+		<?php wp_nav_menu( array( 'theme_location' => 'menu-2', 'menu_id' => 'secondary-menu' ) ); ?>
 
-		<?php get_template_part( 'template-parts/content', 'home-template' ); ?>
+		<main id="home-main" class="site-main grid" role="main">
+
+
+
+
+<?php
+		wp_reset_postdata();
+
+		$query = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => 6 ) );
+		
+		if ( $query->have_posts() ) :
+
+			/* Start the Loop */
+			while ( $query->have_posts() ) : $query->the_post();
+
+				get_template_part( 'template-parts/content', 'home-template' ); 
+
+			endwhile;
+
+		else :
+
+			get_template_part( 'template-parts/content', 'none' );
+
+		endif; 
+
+		the_posts_navigation();
+
+		wp_reset_postdata(); ?>
 	
 		</main><!-- #main -->
 	</div><!-- #primary -->

@@ -42,9 +42,10 @@ function goldenagehorror_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 
-	// This theme uses wp_nav_menu() in one location.
+	// This theme uses wp_nav_menu() in two locations.
 	register_nav_menus( array(
 		'menu-1' => esc_html__( 'Primary', 'goldenagehorror' ),
+		'menu-2' => esc_html__( 'Secondary', 'goldenagehorror' ),
 	) );
 
 	/*
@@ -115,7 +116,11 @@ function goldenagehorror_scripts() {
 
 	wp_enqueue_script( 'goldenagehorror-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'goldenagehorror-custom-scripts', get_template_directory_uri() . '/js/custom.js', array('jquery'), '20151215', true );
+	wp_enqueue_script( 'goldenagehorror-custom-scripts', get_template_directory_uri() . '/js/custom.js', array('jquery','masonry'), '20151215', true );
+
+	wp_enqueue_script( 'goldenagehorror-masonry', get_template_directory_uri() . '/js/masonry.pkgd.min.js', array('jquery'), '1', true);
+	
+	
 
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -153,3 +158,13 @@ require get_template_directory() . '/inc/jetpack.php';
  * Allow SVG upload
  */
 require get_template_directory() . '/inc/svg-upload.php';
+
+/**
+ * Allow SVG upload
+ */
+require get_template_directory() . '/inc/catch-that-image.php';
+
+/**
+ * User meta boxes
+ */
+require get_template_directory() . '/inc/user-meta.php';
