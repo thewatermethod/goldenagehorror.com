@@ -1,0 +1,209 @@
+
+/*--------------------------------------------------------------
+## Custom CSS
+--------------------------------------------------------------*/
+
+body{
+	overflow-x: hidden;
+}
+
+a.button, button, input.submit{
+	background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+	color: white;
+	text-decoration: none;
+	padding: 1rem;	
+	border-radius: 6px;	
+}
+a.button:hover, button:hover, input.submit:hover{
+	background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+}
+.site-header{
+	width: 100vw;
+	height: 100%; 
+    background: no-repeat top center;
+    background-size: cover;
+
+}
+
+.site-header.overlay{
+	position: absolute;
+	bottom: 0;
+	background-attachment: fixed;
+}
+
+
+header.site-header{
+	width: 100vw;
+	height: 61vh;
+	position: relative;
+	background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);	
+}	
+
+.site-branding, .site-title{
+	clear: none;
+	float: left;
+}
+
+.site-title{
+	font-size: 2.5rem;
+	font-family: 'Passion One', cursive;
+	text-shadow: 	1px 3px #821457, 
+	 				-2px -3px #E4A0AC;
+	position: fixed;
+}
+
+.site-title a{
+  	animation: 	blur 30ms infinite, 
+				flick 50ms infinite,
+				jump 50ms infinite;		
+}
+
+nav.main-navigation{
+	position: fixed;
+	right: 0;
+}
+
+@keyframes blur {
+  0%   { filter: blur(1px); opacity:0.8;}
+  50% { filter: blur(1px); opacity:1; }
+  100%{ filter: blur(1px); opacity:0.8; }
+}
+@keyframes flick {
+  50% { left:2px; }
+  51% { left:0; }
+}
+@keyframes jump {
+  30% { top:10px; }
+  31% { top:0; }
+}
+
+.site-title a{
+	color: white;
+	text-decoration: none;
+	padding: 1rem;
+}
+
+.main-navigation{
+	float: right;
+	width: auto;
+	clear: none;
+	padding: 1rem 3rem 1rem 1rem;
+
+}
+
+.main-navigation li{
+	display: inline-block;
+	padding: 1rem;
+}
+
+.main-navigation li a{
+	font-family: 'Passion One', cursive;
+	font-size: 1.5rem;
+	color: white;
+}
+.main-navigation li a:hover{
+
+}
+
+
+
+.masthead.home--masthead{
+	background: black;
+	height: 40vh;
+	text-align: center;
+	color: white;
+	padding: 1rem 1rem 0 1rem;
+}
+
+.masthead.home--masthead p{
+	font-size: 2rem;
+	margin-top: 0;
+}
+.masthead.home--masthead a{
+	padding: 1rem;
+}
+.masthead.home--masthead img{
+	min-height: 75px;
+	margin-bottom: 3rem;
+}
+
+
+.featured-category{
+	background: white;
+}
+.featured-category h2{
+	text-align: center;
+	color: black;
+	font-size: 2.25rem;
+	font-style: italic;
+}
+
+.featured-category h3 a{
+	font-size: 2.75rem;
+	text-decoration: none;
+}
+.featured-category article{
+	width: 75%;
+	max-width: 1200px;
+	margin: 100px auto;
+}
+
+.featured-category img{
+	float: left;
+	margin-right: 2rem;
+}
+
+.featured-category a.button{
+	display: block;
+	margin: 2rem auto;
+	padding: 1rem;
+	width: 50%;
+	text-align: center;
+}
+
+.featured-category .powerpress_links.powerpress_links_mp3{
+	display: none;
+}
+
+.content-area{
+	background: white;
+}
+
+.home .content-area {
+	max-width: 60vw;
+	margin: auto;
+}
+
+
+.grid{
+ -moz-column-width: 26em;
+ -webkit-column-width: 26em;
+ -moz-column-gap: 1em;
+ -webkit-column-gap: 1em;
+ width: 100%;
+
+}
+
+.grid-item{	
+	display: inline-block;
+	margin:  0.25rem;
+	padding:  1rem;
+	width:  100%; 
+	background:  #efefef;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+body.home .content-area .menu ul li, 
+body.home .content-area ul.menu li{
+	display: inline-block;
+	padding: .5rem;
+	font-family: 'Passion One', cursive;
+	font-size: 1.5rem;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	width: 23%;
+	text-align: center;
+}
+
+body.home .content-area .menu ul li,
+body.home .content-area ul.menu li a{
+	text-decoration: none;
+}
