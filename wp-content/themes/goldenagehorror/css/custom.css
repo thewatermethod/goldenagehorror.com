@@ -151,6 +151,7 @@ nav.main-navigation{
 .featured-category img{
 	float: left;
 	margin-right: 2rem;
+	max-width: 400px;
 }
 
 .featured-category a.button{

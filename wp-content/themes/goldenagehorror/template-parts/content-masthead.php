@@ -20,7 +20,3 @@
 	<p><a class="button" href="">New Listener? -- Start here</a></p>
 
 </div>
-
-<div class="masthead sidebar--masthead">
-		
-</div>

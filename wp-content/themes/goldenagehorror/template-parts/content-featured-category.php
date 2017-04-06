@@ -30,7 +30,8 @@
 							</header><!-- .entry-header -->
 
 							<div class="entry-content">
-								<?php the_post_thumbnail('medium'); ?>
+								<?php //the_post_thumbnail('medium'); ?>
+								<img class="feat-thumb" src="<?php echo goldenagehorror_get_post_thumbnail( get_the_ID() ); ?>" alt="" />
 								<?php the_excerpt(); ?>
 								<?php the_powerpress_content(); ?>
 								<a class="button" href="<?php the_permalink(); ?>">Read More</a>

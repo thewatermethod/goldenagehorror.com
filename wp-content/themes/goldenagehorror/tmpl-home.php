@@ -11,6 +11,15 @@
 
 get_header(); ?>
 
+	<?php if( is_home() || is_front_page() ) : 
+
+		get_template_part( 'template-parts/content', 'masthead'); 
+		get_template_part( 'template-parts/content', 'featured-category' );
+			
+	endif; ?>
+
+
+
 	<div id="primary" class="content-area ">
 		<h2>Browse our archives</h2>
 		<?php wp_nav_menu( array( 'theme_location' => 'menu-2', 'menu_id' => 'secondary-menu' ) ); ?>
