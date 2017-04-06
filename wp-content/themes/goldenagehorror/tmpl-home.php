@@ -21,44 +21,45 @@ get_header(); ?>
 
 
 	<div id="primary" class="content-area ">
+
 		<h2>Browse our archives</h2>
 		<?php wp_nav_menu( array( 'theme_location' => 'menu-2', 'menu_id' => 'secondary-menu' ) ); ?>
 
+	<div class="flex-wrap">
+
 		<main id="home-main" class="site-main grid" role="main">
 
+		<?php
 
+			wp_reset_postdata();
 
+			$query = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => 7 ) );
+			
+			if ( $query->have_posts() ) :
 
-<?php
-		wp_reset_postdata();
+				/* Start the Loop */
+				while ( $query->have_posts() ) : $query->the_post();
 
-		$query = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => 6 ) );
-		
-		if ( $query->have_posts() ) :
+					get_template_part( 'template-parts/content', 'home-template' ); 
 
-			/* Start the Loop */
-			while ( $query->have_posts() ) : $query->the_post();
+				endwhile;
 
-				get_template_part( 'template-parts/content', 'home-template' ); 
+			endif; 
 
-			endwhile;
+			the_posts_navigation();
 
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif; 
-
-		the_posts_navigation();
-
-		wp_reset_postdata(); ?>
+			wp_reset_postdata(); ?>
 	
 		</main><!-- #main -->
+
+		<?php
+
+			get_sidebar(); ?>
+
+	</div>
+
 	</div><!-- #primary -->
 
 
-	<div class="masthead sidebar--masthead"></div>
-
 <?php
-get_sidebar();
 get_footer();

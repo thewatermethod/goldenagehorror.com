@@ -106,7 +106,6 @@ nav.main-navigation{
 }
 
 
-
 .masthead.home--masthead{
 	background: black;
 	height: 40vh;
@@ -126,7 +125,6 @@ nav.main-navigation{
 	min-height: 75px;
 	margin-bottom: 3rem;
 }
-
 
 .featured-category{
 	background: white;
@@ -166,33 +164,52 @@ nav.main-navigation{
 	display: none;
 }
 
+.site-content:not(.home){
+	max-width: 80vw;
+	margin: auto;
+	display: flex;
+}
+
 .content-area{
 	background: white;
+	float: left;
+	flex-grow: 3;
+}
+
+aside.widget-area{		
+	flex-grow: 1;	
+	position: sticky;
+	top: 2em;
+	height: 100%;
+	min-width: 27%;
 }
 
 .home .content-area {
-	max-width: 60vw;
+	max-width: 80vw;
+	float: none;
+	width: auto;
 	margin: auto;
 }
 
-
-.grid{
- -moz-column-width: 26em;
- -webkit-column-width: 26em;
- -moz-column-gap: 1em;
- -webkit-column-gap: 1em;
- width: 100%;
-
+.home .content-area .flex-wrap{
+	display: flex;	
+	overflow-x: visible;
+	height: auto;
 }
+
+.home .content-area main{
+	flex-grow: 12;	
+}
+
+
 
 .grid-item{	
-	display: inline-block;
-	margin:  0.25rem;
-	padding:  1rem;
-	width:  100%; 
+	max-width: 48%;	
+	padding:  1rem;	
 	background:  #efefef;
-	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);	
 }
+
 body.home .content-area .menu ul li, 
 body.home .content-area ul.menu li{
 	display: inline-block;
@@ -208,3 +225,24 @@ body.home .content-area .menu ul li,
 body.home .content-area ul.menu li a{
 	text-decoration: none;
 }
+
+
+.widget-area ul{
+	margin: 0;
+}
+
+.site-footer{
+	clear: both;
+	float: left;
+	width: 100vw;
+	text-align: center;
+	margin-top: 20rem;
+}
+
+@media( max-width: 1400px ){
+	.grid-item{
+		max-width: 100%;
+		width: 100%;
+	}
+}
+

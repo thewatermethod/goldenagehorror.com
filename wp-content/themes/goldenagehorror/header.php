@@ -43,4 +43,4 @@
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content">
+	<div id="content" class="site-content <?php if(is_home() || is_front_page() ): echo 'home'; endif; ?>">
