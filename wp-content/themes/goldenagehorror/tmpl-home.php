@@ -18,12 +18,11 @@ get_header(); ?>
 			
 	endif; ?>
 
-
+	<div class="vhs-wrap">
+		<?php wp_nav_menu( array( 'theme_location' => 'menu-2', 'menu_id' => 'secondary-menu' ) ); ?>
+	</div>
 
 	<div id="primary" class="content-area ">
-
-		<h2>Browse our archives</h2>
-		<?php wp_nav_menu( array( 'theme_location' => 'menu-2', 'menu_id' => 'secondary-menu' ) ); ?>
 
 	<div class="flex-wrap">
 

@@ -14,6 +14,13 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
+		
+		<?php if ( is_active_sidebar( 'sidebar-2' ) ): ?>
+			<div class="widgets" role="complementary">
+				<?php dynamic_sidebar( 'sidebar-2' ); ?>
+			</div><!-- #secondary -->
+		<?php endif; ?>
+
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'goldenagehorror' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'goldenagehorror' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>

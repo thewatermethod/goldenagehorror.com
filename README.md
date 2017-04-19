@@ -1,2 +1,0 @@
-# goldenagehorror.com
-Horror podcast

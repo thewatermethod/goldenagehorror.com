@@ -1,16 +1,16 @@
 
 (function($) {
 
-	if( $("body").hasClass( "home") ){
-
-		var $grid = $('.grid').masonry({
-	  		columnWidth: '.grid-item',
-	  		itemSelector: '.grid-item',
-	  		gutter: 10,
-	  		percentPosition: true
-		});
-
-	}
+	$(window).load(function(){
+		if( $("body").hasClass( "home") ){
+			var $grid = $('.grid').masonry({
+		  		columnWidth: '.grid-item',
+		  		itemSelector: '.grid-item',
+		  		gutter: 10,
+		  		percentPosition: true
+			});
+		}		
+	});
 
 	$(window).scroll(function() { // check if scroll event happened
 	

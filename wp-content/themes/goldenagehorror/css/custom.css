@@ -50,6 +50,7 @@ header.site-header{
 	text-shadow: 	1px 3px #821457, 
 	 				-2px -3px #E4A0AC;
 	position: fixed;
+	margin-top: 1rem;
 }
 
 .site-title a{
@@ -174,14 +175,20 @@ nav.main-navigation{
 	background: white;
 	float: left;
 	flex-grow: 3;
+	flex-basis: 0;
 }
 
 aside.widget-area{		
 	flex-grow: 1;	
+	flex-basis: 0;
 	position: sticky;
-	top: 2em;
+	top: 0;
 	height: 100%;
-	min-width: 27%;
+	padding: 1em;
+}
+
+aside.widget-area img{
+	max-width: 100%;
 }
 
 .home .content-area {
@@ -198,10 +205,9 @@ aside.widget-area{
 }
 
 .home .content-area main{
-	flex-grow: 12;	
+	flex-grow: 3;	
+	flex-basis: 0;
 }
-
-
 
 .grid-item{	
 	max-width: 48%;	
@@ -210,23 +216,69 @@ aside.widget-area{
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);	
 }
 
-body.home .content-area .menu ul li, 
-body.home .content-area ul.menu li{
-	display: inline-block;
-	padding: .5rem;
-	font-family: 'Passion One', cursive;
-	font-size: 1.5rem;
-	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-	width: 23%;
+.vhs-wrap{
+	background: #4c444f;
+	color: white;
 	text-align: center;
 }
 
-body.home .content-area .menu ul li,
-body.home .content-area ul.menu li a{
+.vhs-wrap ul.menu {
+	display: flex;
+	max-width: 1400px;
+	margin: auto;
+	padding-left: 0;
+	text-align: center;
+}
+
+.vhs-wrap .menu ul li, 
+.vhs-wrap ul.menu li{
+	display: flex;
+	flex-basis: 0;
+	flex-grow: 1;
+	font-family: 'Passion One', cursive;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.vhs-wrap .menu ul li,
+.vhs-wrap ul.menu li a{
+	text-decoration: none;
+	margin: auto;
+	padding: 1rem;
+	color: white;
+}
+.vhs-wrap ul.menu li a:hover{
+	color: #ccc;
+}
+
+.entry-title a{
 	text-decoration: none;
 }
 
 
+.cat-links, .tags-links{
+	width: 100%;
+	text-align: center;
+	display: block;
+	margin: 2rem;
+}
+.cat-links a, .tags-links a{
+	background: rgba(76,68,79,1);
+	color: white;
+	text-decoration: none;
+	padding: .5rem;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.cat-links a:hover, .tags-links a:hover{
+	box-shadow: none;
+	color: #ccc;
+}
+.cat-links a{
+	background: rgba(76,68,79,1);
+}
+.tags-links a{
+	background: #751351;
+}
 .widget-area ul{
 	margin: 0;
 }
@@ -235,14 +287,64 @@ body.home .content-area ul.menu li a{
 	clear: both;
 	float: left;
 	width: 100vw;
-	text-align: center;
-	margin-top: 20rem;
 }
+
+.site-footer .widgets{ 
+	display: flex;
+	max-width: 1400px;
+	margin: auto;
+}
+
+.site-footer .widgets .widget{
+	padding: 1rem;
+	flex-grow: 1;
+    flex-basis: 0;
+}
+
+.site-info{
+	width: 100%;
+	text-align: center;
+}
+
+/********************************
+
+	Responsive business
+
+***********************************/
 
 @media( max-width: 1400px ){
 	.grid-item{
 		max-width: 100%;
 		width: 100%;
 	}
+	aside.widget-area{
+		min-width: 0;
+	}
 }
 
+@media( max-width: 1200px ){
+	.home .content-area .flex-wrap, .site-content:not(.home){
+		flex-direction: column;
+	}
+}
+
+@media( max-width: 900px ){
+	aside.widget-area{
+		padding: 1rem;
+	}
+	.site-footer .widgets{
+		max-width: 80vw;
+		margin: auto;
+		flex-direction: column;
+	}
+}
+
+@media( max-width: 600px ){
+	aside.widget-area{
+		max-width: 100vw;
+		padding: 0;
+	}
+	.site-footer .widgets{
+		max-width: 100vw;
+	}
+}

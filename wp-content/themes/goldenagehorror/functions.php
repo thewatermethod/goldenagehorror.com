@@ -99,6 +99,16 @@ function goldenagehorror_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Subfooter', 'goldenagehorror' ),
+		'id'            => 'sidebar-2',
+		'description'   => esc_html__( 'Add widgets here.', 'goldenagehorror' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
 }
 add_action( 'widgets_init', 'goldenagehorror_widgets_init' );
 
@@ -172,3 +182,12 @@ require get_template_directory() . '/inc/get_post_thumbnail.php';
  * User meta boxes
  */
 require get_template_directory() . '/inc/user-meta.php';
+
+
+/* Here's a snippet to remove the Category: from the archive titles*/
+add_filter('get_the_archive_title', 'goldenagehorror_clean_archive_title');
+
+function goldenagehorror_clean_archive_title($title) {
+    return preg_replace('/^\w+: /', '', $title);
+}
+

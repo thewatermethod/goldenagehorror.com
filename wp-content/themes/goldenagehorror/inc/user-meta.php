@@ -18,9 +18,9 @@ function goldenagehorror_additional_profile_fields( $user ) {
 		$is_host = 'false';		
 	}
 
-    ?>
+    
 
-
+  if ( !current_user_can( 'edit_user', $user_id ) ) { ?>
     <h3 id="newsletterSubscription">Podcast Host</h3>
 
     <table class="form-table">
@@ -35,6 +35,8 @@ function goldenagehorror_additional_profile_fields( $user ) {
 	   		</td>
    	 </tr>
     </table>
+
+  <?php } ?>
     <?php
 }
 
