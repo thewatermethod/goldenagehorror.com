@@ -267,6 +267,7 @@ select,
 textarea {
 	color: #404040;
 	font-family: 'Source Serif Pro', serif;
+	//font-family: 'Palanquin Dark', sans-serif;
 	font-size: 16px;
 	font-size: 1.25rem;
 	line-height: 1.5;

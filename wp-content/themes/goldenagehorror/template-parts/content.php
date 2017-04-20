@@ -18,7 +18,12 @@
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 
-?>
+		// $categories_list = get_the_category_list( esc_html__( ' ', 'goldenagehorror' ) );
+		// if ( $categories_list && goldenagehorror_categorized_blog() ) {
+		// 	printf( '<span class="cat-links">' . esc_html__( '%1$s', 'goldenagehorror' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+		// }
+
+ ?>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
@@ -37,6 +42,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php goldenagehorror_entry_footer(); ?>
+		<?php //goldenagehorror_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

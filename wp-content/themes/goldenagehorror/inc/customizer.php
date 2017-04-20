@@ -24,12 +24,54 @@ function goldenagehorror_customize_register( $wp_customize ) {
 		'priority'   => 30,
 	) );
 
+
+	$wp_customize->add_setting( 'homepagelink', array(
+		'default'           => '#',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' 				=> 'theme_mod'
+	) );
+
+	$wp_customize->add_control( 'homepagelink', array(
+		'label'    => 'Home Page Link',
+		'section'  => 'goldenagehorror_settings',
+		'type'     => 'text',
+		'priority' => 0
+	) );
+
+
+	$wp_customize->add_setting( 'homepagelinktext', array(
+		'default'           => 'New Listener? -- Start here',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' 				=> 'theme_mod'
+	) );
+
+	$wp_customize->add_control( 'homepagelinktext', array(
+		'label'    => 'Home Page Link Text',
+		'section'  => 'goldenagehorror_settings',
+		'type'     => 'text',
+		'priority' => 0
+	) );
+
+
 	// Category for home page
 	$categories = get_terms( array(
 		'taxonomy' => 'category',
 		'hide_empty' => false,
 		'fields' => 'id=>name'
 	) );
+
+	$wp_customize->add_setting( 'featured_category_text', array(
+		'default'           => 'Latest Episode',
+		'sanitize_callback' => 'sanitize_text_field',
+	) );
+
+	$wp_customize->add_control( 'featured_category_text', array(
+		'label'    => 'Featured Category Text',
+		'section'  => 'goldenagehorror_settings',
+		'type'     => 'text',
+		'priority' => 1
+	) );
+
 
 	$categories = array( 0 => '-- Select a category --' ) + $categories;
 
@@ -47,17 +89,48 @@ function goldenagehorror_customize_register( $wp_customize ) {
 		'priority' => 2
 	) );
 
-	$wp_customize->add_setting( 'featured_category_text', array(
-		'default'           => 'Latest Episode',
+
+	$wp_customize->add_setting( 'itunes', array(
+		'default'           => '',
 		'sanitize_callback' => 'sanitize_text_field',
+		'type' 				=> 'theme_mod'
 	) );
 
-	$wp_customize->add_control( 'featured_category_text', array(
-		'label'    => 'Featured Category Text',
+	$wp_customize->add_control( 'itunes', array(
+		'label'    => 'iTunes Link',
 		'section'  => 'goldenagehorror_settings',
 		'type'     => 'text',
-		'priority' => 1
+		'priority' => 3
 	) );
+
+	$wp_customize->add_setting( 'google_play', array(
+		'default'           => '',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' 				=> 'theme_mod'
+	) );
+
+	$wp_customize->add_control( 'google_play', array(
+		'label'    => 'Google Play Link',
+		'section'  => 'goldenagehorror_settings',
+		'type'     => 'text',
+		'priority' => 4
+	) );
+
+	$wp_customize->add_setting( 'stitcher', array(
+		'default'           => '',
+		'sanitize_callback' => 'sanitize_text_field',
+		'type' 				=> 'theme_mod'
+	) );
+
+	$wp_customize->add_control( 'stitcher', array(
+		'label'    => 'Stitcher Link',
+		'section'  => 'goldenagehorror_settings',
+		'type'     => 'text',
+		'priority' => 4
+	) );
+
+	$wp_customize->remove_section( 'background_image' );
+	$wp_customize->remove_section( 'colors' );
 
 }
 
