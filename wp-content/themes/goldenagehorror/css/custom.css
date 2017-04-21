@@ -265,11 +265,20 @@ aside.widget-area img{
 .post-navigation{
 	padding: 1rem;
 }
-.post-navigation a{
+.post-navigation a, .tags-links a{
 	color: #4c444f;
     font-size: 1rem;
     font-style: italic;
     text-decoration: none;
+}
+.tags-links{
+	text-align: center;
+}
+.tags-links a:after{
+	content: ' | ';
+}
+.tags-links a:last-child:after{
+	content: '';
 }
 
 .powerpress_links.powerpress_links_mp3{
