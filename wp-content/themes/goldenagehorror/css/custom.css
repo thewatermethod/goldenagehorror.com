@@ -3,6 +3,8 @@
 ## Custom CSS
 --------------------------------------------------------------*/
 
+
+
 body{
 	overflow-x: hidden;
 }
@@ -352,6 +354,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"]{
 	}
 	aside.widget-area{
 		min-width: 0;
+		position: relative;
 	}
 }
 
@@ -361,10 +364,38 @@ button, input[type="button"], input[type="reset"], input[type="submit"]{
 	}
 }
 
+
+
 @media( max-width: 900px ){
-	aside.widget-area{
-		padding: 1rem;
+	.site-title{
+		font-size: 1.5em;
 	}
+	.masthead.home--masthead{
+		height: auto;
+		padding-bottom: 1rem;
+	}
+	.masthead.home--masthead a{
+		display: block;
+		width: 100%;
+	}
+	.masthead.home--masthead a img{
+		width: 40%;
+	}
+	button.menu-toggle{
+		background: none;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-family: Passion One;
+		letter-spacing: 3px;
+		font-size: 1em;
+		border: 3px solid white;
+		border-radius: 6px;
+	}
+	.site-title a{
+		animation: none;		
+		text-shadow: none;
+	}
+
 	.site-footer .widgets{
 		max-width: 80vw;
 		margin: auto;
@@ -373,6 +404,14 @@ button, input[type="button"], input[type="reset"], input[type="submit"]{
 }
 
 @media( max-width: 600px ){
+
+	.site-branding, .site-title{
+		width: 100%;
+		text-align: center;	
+	}
+	.masthead.home--masthead a img{
+		width: 50%;
+	}
 	aside.widget-area{
 		max-width: 100vw;
 		padding: 0;
@@ -380,4 +419,10 @@ button, input[type="button"], input[type="reset"], input[type="submit"]{
 	.site-footer .widgets{
 		max-width: 100vw;
 	}
+}
+
+@media( max-width: 400px ){
+	.masthead.home--masthead a img{
+		width: 75%;
+	}	
 }
