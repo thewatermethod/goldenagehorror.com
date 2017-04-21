@@ -32,7 +32,7 @@ get_header(); ?>
 
 			wp_reset_postdata();
 
-			$query = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => 7 ) );
+			$query = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => 10 ) );
 			
 			if ( $query->have_posts() ) :
 
@@ -48,6 +48,8 @@ get_header(); ?>
 			the_posts_navigation();
 
 			wp_reset_postdata(); ?>
+
+
 	
 		</main><!-- #main -->
 
@@ -56,7 +58,12 @@ get_header(); ?>
 			get_sidebar(); ?>
 
 	</div>
+		<?php 
+		
+			$cat = get_theme_mod('featured_category');
+			$cat = get_the_category_by_ID( $cat ); 	?>
 
+		<h3 style="text-align: center;"><a href="<?php echo home_url('/category/'. $cat); ?>">Read More</a></h3>
 	</div><!-- #primary -->
 
 
