@@ -44,7 +44,8 @@ header.site-header{
 
 body.home header.site-header{
 	height: 61vh;
-	background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);	
+	//background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+	background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
 }
 
 .site-branding, .site-title{
@@ -267,20 +268,48 @@ aside.widget-area img{
 .post-navigation{
 	padding: 1rem;
 }
-.post-navigation a, .tags-links a{
+.post-navigation a {
 	color: #4c444f;
     font-size: 1rem;
     font-style: italic;
     text-decoration: none;
 }
-.tags-links{
-	text-align: center;
+.tags-links a{
+	position: relative;
+    font-size: 12px;
+    font-weight: 700;
+    color: #FFF;
+    display: inline-block;
+    padding: 6px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    background: #767676;
+    border-radius: 0 2px 2px 0;
+    list-style-type: none;
+    font-size: 1em;
 }
-.tags-links a:after{
-	content: ' | ';
+.tags-links a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -4px;
+    top: 50%;
+    margin-top: -2px;
+    width: 4px;
+    height: 4px;
+    border-radius: 99px;
+    z-index: 10;
 }
-.tags-links a:last-child:after{
-	content: '';
+.tags-links a::after {
+    border-top: 21px solid transparent;
+    border-right: 12px solid #767676;
+    border-bottom: 21px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: -12px;
+    width: 0;
 }
 
 .powerpress_links.powerpress_links_mp3{
@@ -342,6 +371,16 @@ button, input[type="button"], input[type="reset"], input[type="submit"]{
     border: 0;
 }
 
+/* Mail Chimp Widget*/
+.widget_wysija_cont .wysija-submit, .wysija-input{
+	width: 100%;	
+}
+
+//Caption Text
+.wp-caption .wp-caption-text{
+	font-size: .75em;
+}
+
 /********************************
 
 	Responsive business
@@ -356,12 +395,18 @@ button, input[type="button"], input[type="reset"], input[type="submit"]{
 	aside.widget-area{
 		min-width: 0;
 		position: relative;
+	}	
+	.home .content-area{
+		max-width: 95vw;
 	}
 }
 
 @media( max-width: 1200px ){
 	.home .content-area{
-		max-width: 100vw;	
+		max-width: 100vw;		
+	}
+	.content-area{
+		padding: 0 1em;	
 	}
 	.site-content:not(.home){
 		flex-direction: column;
@@ -369,6 +414,11 @@ button, input[type="button"], input[type="reset"], input[type="submit"]{
 }
 
 
+@media( min-width: 1200px){
+	.content-area{
+		max-width: 77%;
+	}
+}
 
 @media( max-width: 900px ){
 	.site-title{
@@ -407,13 +457,18 @@ button, input[type="button"], input[type="reset"], input[type="submit"]{
 		flex-direction: column;
 	}
 
+	header.site-header{
+		z-index: 3;
+	}
+
 	.main-navigation.toggled ul{
 	    position: fixed;	    
-	    height: 60vh;
+	    height: 100vh;
 	    width: 100vw;
 	    left: 0;
-	    top: 20%;
+	    top: 10%;
 	    background: rgba(1,1,1,.85);
+	    z-index: 2;
 	}
 	.main-navigation.toggled ul li{
 		display: block;
@@ -433,6 +488,14 @@ button, input[type="button"], input[type="reset"], input[type="submit"]{
 	}
 	aside.widget-area img{
 		width: 100%;
+	}
+
+	.site-info a{
+		display: block;
+		width: 100%; 
+	}
+	span.sep{
+		display: none;
 	}
 
 }
