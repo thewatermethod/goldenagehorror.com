@@ -18,10 +18,6 @@ get_header(); ?>
 			
 	endif; ?>
 
-	<div class="vhs-wrap">
-		<?php wp_nav_menu( array( 'theme_location' => 'menu-2', 'menu_id' => 'secondary-menu' ) ); ?>
-	</div>
-
 	<div id="primary" class="content-area ">
 
 	<div class="flex-wrap">
@@ -66,6 +62,8 @@ get_header(); ?>
 		<h3 style="text-align: center;"><a href="<?php echo home_url('/category/'. $cat); ?>">Read More</a></h3>
 	</div><!-- #primary -->
 
+
+	
 
 <?php
 get_footer();

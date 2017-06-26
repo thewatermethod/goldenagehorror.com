@@ -108,7 +108,24 @@ function goldenagehorror_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
-
+	register_sidebar( array(
+		'name'          => esc_html__( 'Footer', 'goldenagehorror' ),
+		'id'            => 'sidebar-3',
+		'description'   => esc_html__( 'Add widgets here.', 'goldenagehorror' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Below Content (Posts)', 'goldenagehorror' ),
+		'id'            => 'sidebar-4',
+		'description'   => esc_html__( 'Add widgets here.', 'goldenagehorror' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
 }
 add_action( 'widgets_init', 'goldenagehorror_widgets_init' );
 

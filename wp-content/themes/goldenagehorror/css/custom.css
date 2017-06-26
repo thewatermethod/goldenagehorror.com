@@ -9,6 +9,10 @@ body{
 	overflow-x: hidden;
 }
 
+.widgets ul{
+	margin: 0;
+}
+
 a.button, button, input.submit{
 	background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 	color: white;
@@ -175,9 +179,10 @@ nav.main-navigation{
 }
 
 .site-content:not(.home){
-	width: 80vw;
+	width: 72%;
 	margin: auto;
 	display: flex;
+	justify-content: space-between;
 }
 
 .content-area{
@@ -188,8 +193,13 @@ nav.main-navigation{
 	padding: 0 5em;
 }
 
+.content-area p{
+	width: 95%;
+	margin: 1em auto;
+}
 .content-area img.aligncenter, .content-area iframe{
 	width: 100%;
+	margin: .75em auto;
 }
 
 aside.widget-area{		
@@ -216,6 +226,7 @@ aside.widget-area img{
 	display: flex;	
 	overflow-x: visible;
 	height: auto;
+	justify-content: space-between;
 }
 
 .home .content-area main{
@@ -236,35 +247,6 @@ aside.widget-area img{
 	text-align: center;
 }
 
-.vhs-wrap ul.menu {
-	display: flex;
-	max-width: 80vw;
-	margin: auto;
-	padding-left: 0;
-	text-align: center;
-}
-
-.vhs-wrap .menu ul li, 
-.vhs-wrap ul.menu li{
-	display: flex;
-	flex-basis: 0;
-	flex-grow: 1;
-	font-family: 'Passion One', cursive;
-	font-size: 1.5rem;
-	text-align: center;
-}
-
-.vhs-wrap .menu ul li,
-.vhs-wrap ul.menu li a{
-	text-decoration: none;
-	margin: auto;
-	padding: 1rem;
-	color: white;
-}
-.vhs-wrap ul.menu li a:hover{
-	color: #ccc;
-}
-
 .post-navigation{
 	padding: 1rem;
 }
@@ -274,42 +256,11 @@ aside.widget-area img{
     font-style: italic;
     text-decoration: none;
 }
-.tags-links a{
-	position: relative;
-    font-size: 12px;
-    font-weight: 700;
-    color: #FFF;
-    display: inline-block;
-    padding: 6px;
-    margin-bottom: 5px;
-    margin-right: 20px;
-    background: #767676;
-    border-radius: 0 2px 2px 0;
-    list-style-type: none;
-    font-size: 1em;
-}
-.tags-links a:before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: -4px;
-    top: 50%;
-    margin-top: -2px;
-    width: 4px;
-    height: 4px;
-    border-radius: 99px;
-    z-index: 10;
-}
-.tags-links a::after {
-    border-top: 21px solid transparent;
-    border-right: 12px solid #767676;
-    border-bottom: 21px solid transparent;
-    content: "";
-    height: 0;
-    position: absolute;
-    top: 0;
-    left: -12px;
-    width: 0;
+
+.tags-links{
+	margin: auto;
+	width: 75%;
+	font-size: .75em;
 }
 
 .powerpress_links.powerpress_links_mp3{
@@ -330,24 +281,39 @@ aside.widget-area img{
     text-transform: uppercase;
 }
 
+._below{
+	max-width: 80vw;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+._below .widget{
+	padding: 1rem;
+	flex-grow: 1;
+    flex-basis: 0;
+}
+
 .site-footer{
 	clear: both;
 	float: left;
 	width: 100vw;
-	background: #4c444f;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+	background-blend-mode: multiply,multiply;
 	color: white;
 	margin-top: 1em;
 }
 
+
 .site-footer a{
-	//color: #ce40b9;
 	color: #30cfd0;
 }
 
 .site-footer .widgets{ 
 	display: flex;
-	max-width: 1400px;
+	max-width: 80vw;
 	margin: auto;
+	justify-content: space-between;
 }
 
 .site-footer .widgets .widget{
@@ -362,21 +328,32 @@ aside.widget-area img{
 }
 
 
-button, input[type="button"], input[type="reset"], input[type="submit"]{
+/* Buttons and Similar*/
+a.button, button, input.submit, button, input[type="button"], input[type="reset"], input[type="submit"], .comments-link{
     font-size: 1.25rem;
-    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background: #EF3B49;
     outline: 0;
     padding: 1rem 2.5rem;
     color: white;
     border: 0;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
-/* Mail Chimp Widget*/
-.widget_wysija_cont .wysija-submit, .wysija-input{
-	width: 100%;	
+.wysija-input, .wysija-submit, .wysija-email{
+	width: 100%;
 }
 
-//Caption Text
+.comments-link{
+	display: none;
+}
+
+.comments-link a{
+	color: white;
+	text-decoration: none;
+}
+
+
+/* Caption Text */
 .wp-caption .wp-caption-text{
 	font-size: .75em;
 }
@@ -451,7 +428,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"]{
 		text-shadow: none;
 	}
 
-	.site-footer .widgets{
+	.site-footer .widgets, ._below {
 		max-width: 80vw;
 		margin: auto;
 		flex-direction: column;
@@ -513,7 +490,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"]{
 		max-width: 100vw;
 		padding: 0;
 	}
-	.site-footer .widgets{
+	.site-footer .widgets, ._below{
 		max-width: 100vw;
 	}
 }

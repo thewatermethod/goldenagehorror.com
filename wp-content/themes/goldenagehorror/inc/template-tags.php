@@ -55,7 +55,7 @@ function goldenagehorror_entry_footer() {
 		/* translators: used between list items, there is a space after the comma */
 		$tags_list = get_the_tag_list( '', esc_html__( ' ', 'goldenagehorror' ) );
 		if ( $tags_list ) {
-			printf( '<div class="tags-links">' . esc_html__( '%1$s', 'goldenagehorror' ) . '</div>', $tags_list ); // WPCS: XSS OK.
+			printf( '<div class="tags-links"><span>Tagged: </span>' . esc_html__( '%1$s', 'goldenagehorror' ) . '</div>', $tags_list ); // WPCS: XSS OK.
 		}
 	}
 
