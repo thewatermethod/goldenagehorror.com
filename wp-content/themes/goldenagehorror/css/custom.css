@@ -208,7 +208,8 @@ aside.widget-area{
 	position: sticky;
 	top: 0;
 	height: 100%;
-	padding: 1em;
+	padding: 1.25em;
+	background: #ededed;
 }
 
 aside.widget-area img{
