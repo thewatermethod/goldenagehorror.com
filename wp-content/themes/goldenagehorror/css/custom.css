@@ -264,6 +264,35 @@ aside.widget-area img{
 	font-size: .75em;
 }
 
+div.info-box{
+	width: 100%;
+	margin: auto;	
+}
+
+div.info-box.podcast-info{
+	background: #ededed;	
+}
+
+div.info-box ul{
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.single h1.entry-title{
+	margin-bottom: 0;
+}
+
+div.info-box ul li{
+	display: flex;
+	flex-grow: 1;		
+	font-size: .75em;
+	padding: .5em;
+	text-align: center;
+}
+
 .powerpress_links.powerpress_links_mp3{
 	display: none;
 }

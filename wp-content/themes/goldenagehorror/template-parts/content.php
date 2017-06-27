@@ -13,21 +13,43 @@
 	<header class="entry-header">
 		<?php
 		if ( is_single() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
+			the_title( '<h1 class="entry-title">', '</h1>' );		
+	
+
+			$EpisodeData = powerpress_get_enclosure_data( get_the_ID() );
+			
+			if( $EpisodeData) : ?>
+
+			<div class="info-box podcast-info">
+				<ul>
+					<?php goldenagehorror_posted_on(); ?>
+					<li><!--<img src="<?php echo get_stylesheet_directory_uri(); ?>/svg/clock.svg">--><?php echo $EpisodeData['duration']; ?></li>
+					<li><a href="<?php echo $EpisodeData["url"];?>">Download Episode</a></li>
+				</ul>
+			</div>
+	 
+			<?php else: ?>
+
+			<div class="info-box article-info">
+				<ul>
+					<?php goldenagehorror_posted_on(); ?>				
+				</ul>
+			</div>		
+
+			<?php endif;
+
 		else :
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 
-		// $categories_list = get_the_category_list( esc_html__( ' ', 'goldenagehorror' ) );
-		// if ( $categories_list && goldenagehorror_categorized_blog() ) {
-		// 	printf( '<span class="cat-links">' . esc_html__( '%1$s', 'goldenagehorror' ) . '</span>', $categories_list ); // WPCS: XSS OK.
-		// }
-
- ?>
+		?>
+ 		
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
 		<?php
+
+
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
 				wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'goldenagehorror' ), array( 'span' => array( 'class' => array() ) ) ),
