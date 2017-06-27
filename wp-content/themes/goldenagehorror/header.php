@@ -37,9 +37,13 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"></span>Menu</button>
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+				<span class="small-menu-button"><img src="<?php echo get_stylesheet_directory_uri(); ?>/svg/menu.svg"></span>
+				<span class="large-menu-button">Menu</span>
+			</button>
 			<?php //get_search_form(); ?>
 			<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
+			<span id="closeMenu"> Close Menu </span>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
