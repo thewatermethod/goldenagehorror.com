@@ -53,6 +53,7 @@ header.site-header{
 	height: 10vh;
 	position: relative;
 	background: black;
+	display:flex;
 	
 }	
 
@@ -66,7 +67,9 @@ body.home header.site-header{
 	clear: none;
 	float: left;
 }
-
+.site-branding{
+	flex-grow: 2;
+}
 .site-title{
 	font-size: 2.5rem;
 	font-family: 'Passion One', cursive;
@@ -189,7 +192,7 @@ nav.main-navigation{
 }
 
 .site-content:not(.home){
-	width: 72%;
+	width: 91%;
 	margin: auto;
 	display: flex;
 	justify-content: space-between;

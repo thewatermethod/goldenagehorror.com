@@ -30,8 +30,12 @@
 							</header><!-- .entry-header -->
 
 							<div class="entry-content">
-								<?php //the_post_thumbnail('medium'); ?>
-								<img class="feat-thumb" src="<?php echo goldenagehorror_get_post_thumbnail( get_the_ID() ); ?>" alt="" />
+
+								<img class="feat-thumb b-lazy" 
+				 					 src ="<?php echo get_stylesheet_directory_uri(); ?>/img/static.gif"
+				 					 data-src-small="<?php echo the_post_thumbnail_url( 'thumbnail' ); ?>"
+				 					 data-src="<?php echo goldenagehorror_get_post_thumbnail( get_the_ID() ); ?>" alt="" />
+				 					 
 								<?php the_excerpt(); ?>
 								<?php the_powerpress_content(); ?>
 								<a class="button" href="<?php the_permalink(); ?>">Listen Now</a>
