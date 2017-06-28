@@ -18,3 +18,12 @@ function goldeagehorror_catch_that_image( $post_content ) {
 
   return $first_img;
 }	
+
+
+function blazy_image_tag( $html, $id, $alt, $title)  {
+	
+	return str_replace( 'src="', 'src="'. get_stylesheet_directory_uri() .'/img/static.gif" data-src="', $html );
+	
+}
+
+add_filter('get_image_tag', 'blazy_image_tag', 10, 4);
