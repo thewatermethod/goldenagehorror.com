@@ -189,14 +189,19 @@ require get_template_directory() . '/inc/svg-upload.php';
 require get_template_directory() . '/inc/catch-that-image.php';
 
 /**
- * gets image from the stream
+ * works that post thumbnail magic
  */
 require get_template_directory() . '/inc/get_post_thumbnail.php';
 
 /**
- * User meta boxes
+ * User meta boxes for designating hosts
  */
 require get_template_directory() . '/inc/user-meta.php';
+
+/**
+ * Disables that dumb emoji stuff 
+ */
+require get_template_directory() . '/inc/disable-emoji.php';
 
 
 /* Here's a snippet to remove the Category: from the archive titles*/
