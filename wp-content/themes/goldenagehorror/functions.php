@@ -144,7 +144,7 @@ function goldenagehorror_scripts() {
 	wp_enqueue_script( 'goldenagehorror-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );	
 	wp_enqueue_script( 'goldenagehorror-masonry', get_template_directory_uri() . '/js/masonry.pkgd.min.js', array('jquery'), '1', true);
 	wp_enqueue_script( 'goldenagehorror-custom-scripts', get_template_directory_uri() . '/js/custom.js', array('jquery','goldenagehorror-masonry'), '20151215', true );
-	wp_enqueue_script( 'goldenagehorror-blazy', get_template_directory_uri() . '/js/blazy.min.js', array(), '20151215', true 		);
+	wp_enqueue_script( 'goldenagehorror-blazy', get_template_directory_uri() . '/js/blazy.min.js', array('goldenagehorror-custom-scripts'), '20151215', true 		);
 	
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

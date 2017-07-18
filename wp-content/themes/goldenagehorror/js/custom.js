@@ -2,14 +2,7 @@
 (function($) {
 
 	$(window).load(function(){
-		if( $("body").hasClass( "home") ){
-			var $grid = $('.grid').masonry({
-		  		columnWidth: '.grid-item',
-		  		itemSelector: '.grid-item',
-		  		gutter: 10,
-		  		percentPosition: true
-			});
-		}		
+	
 	});
 
 	$(window).scroll(function() { // check if scroll event happened
@@ -29,3 +22,24 @@
 
 })( jQuery );
 
+	window.onload = function(){
+
+    var bLazy = new Blazy({
+        breakpoints: [{
+	    	width: 420, 
+	    	src: 'data-src-small'
+		}],
+		success: function(element){
+		    if( jQuery("body").hasClass( "home") ){
+				var $grid = jQuery('.grid').masonry({
+			  		columnWidth: '.grid-item',
+			  		itemSelector: '.grid-item',
+			  		gutter: 10,
+			  		percentPosition: true
+				});
+			}	
+        }
+   });
+
+
+};
