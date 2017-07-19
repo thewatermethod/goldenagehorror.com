@@ -3,6 +3,11 @@
 ## Custom CSS
 --------------------------------------------------------------*/
 
+.mejs-offscreen{
+	margin-left: -9999px;
+	position: fixed;	
+}
+
 #closeMenu{
 	display: none;
 }
