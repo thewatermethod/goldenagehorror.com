@@ -64,7 +64,6 @@ header.site-header{
 
 body.home header.site-header{
 	height: 61vh;
-	//background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 	background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
 }
 
@@ -129,14 +128,14 @@ nav.main-navigation{
 }
 
 .main-navigation li a{
-	font-family: 'Passion One', cursive;
 	font-size: 1.5rem;
+	font-weight: normal;
 	color: white;
 }
+
 .main-navigation li a:hover{
-
+	text-decoration: underline; 
 }
-
 
 .masthead.home--masthead{
 	background: black;
@@ -325,6 +324,11 @@ div.info-box ul li{
 }
 
 
+.site-main article {
+	margin: auto;
+	max-width: 700px;
+}
+
 .widget-area ul{
 	margin: 0;
 }
@@ -496,12 +500,9 @@ a.button, button, input.submit, button, input[type="button"], input[type="reset"
 	}
 
 	header.site-header{
-		z-index: 3;
+		z-index: 98;
 	}
 	
-	nav.main-navigation {
-    //	right: 80px;
-	}
 
 	.main-navigation.toggled ul{
 	    position: fixed;	    
@@ -510,13 +511,13 @@ a.button, button, input.submit, button, input[type="button"], input[type="reset"
 	    left: 0;
 	    top: 0;
 	    background: rgba(1,1,1,.85);
-	    z-index: 2;
+	    z-index: 98;
 	}
 	#closeMenu{
 		position: fixed;
 		right: 20px;
 		top: 20px;
-		z-index: 3;
+		z-index: 99;
 		color: white;
 		cursor: pointer;
 	    background: none;
@@ -579,6 +580,7 @@ a.button, button, input.submit, button, input[type="button"], input[type="reset"
 	.site-title{
 		position: relative;
 		font-size: 1em;
+		font-weight: normal;
 		padding: .5em;
 	}
 	button.menu-toggle{
