@@ -24,6 +24,7 @@ wp-content/cache/*
 wp-content/cache/supercache/*
 wp-content/plugins/akismet/
 wp-content/plugins/autoptimize/
+wp-content/plugins/jetpack-dev-mode/*
 wp-content/plugins/captain-typekit/
 wp-content/plugins/disqus-comment-system/
 wp-content/plugins/hyperdb-1-1/
